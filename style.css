@@ -263,7 +263,72 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 140px;
+  margin-top: 70px;
+}
+
+.contato-info
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contato
+{
+  margin: 0 2rem;
+}
+
+.contato img
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.contato h4
+{
+  text-align: center;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px
+}
+
+.contato-desc
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contato-desc p
+{
+  color: #FFFFFF;
+  text-align: center;
+  word-wrap: pre-line;
+  word-wrap: normal;
+  margin: 0 30%;
+  margin-bottom: 1rem;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 30px;
+}
+.contato-desc span
+{
+  color: #FFFFFF;
+  text-align: center;
+  word-wrap: pre-line;
+  word-wrap: normal;
+  margin: 0 30%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* titulo */
@@ -301,7 +366,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* btn */
