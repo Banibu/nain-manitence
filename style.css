@@ -487,3 +487,16 @@ body {
   margin-right: 10rem; /* adiciona um espaço maior à esquerda */
 }
 
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .left, .right, .left2, .right2 {
+    width: 100%;
+    min-height: auto;
+    max-height: auto;
+    margin: 20px 0;
+  }
+}
