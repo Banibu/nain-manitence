@@ -486,3 +486,107 @@ body {
   color: #FFFFFF;
   margin-right: 10rem; /* adiciona um espaço maior à esquerda */
 }
+
+@media screen and (max-width: 767px) {
+  .max-width
+  {
+    margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 190vh;
+    flex: 0;
+  }
+  /* Estilos para telas com largura máxima de 767px, como smartphones */
+  .header-1 {
+    width: 100%;
+    /* Estilos específicos para o cabeçalho em dispositivos móveis */
+  }
+  .header-2 {
+    width: 100%;
+    /* Estilos específicos para o cabeçalho em dispositivos móveis */
+  }
+  .logo {
+    padding: 0 0.1rem;
+    /* Estilos específicos para o logo em dispositivos móveis */
+  }
+  .menu {
+    padding: 0 0.1rem;
+    /* Estilos específicos para o menu em dispositivos móveis */
+  }
+  .container {
+    width: 100%; /* Define a largura do container para 100% em dispositivos móveis */
+    height: 100%;
+    /* Estilos específicos para o container em dispositivos móveis */
+  }
+  .content {
+    width: 100%; /* Define a largura do conteúdo para 100% em dispositivos móveis */
+    box-sizing: border-box; /* Define o modelo de caixa para incluir o padding e a borda no cálculo da largura */
+    /* Estilos específicos para o conteúdo em dispositivos móveis */
+  }
+  .call {
+    flex-direction: column;
+    margin-top: 40rem; /* Reduza a margem superior para se adequar a telas menores */
+  }
+  .left, .right {
+    margin-bottom: 30px;
+    width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
+    margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
+    padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
+  }
+  .call2 {
+    flex-direction: column;
+    margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
+  }
+  .left2, .right2 {
+    width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
+    margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
+    padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
+  }
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50rem;
+  }
+
+  .service-item p {
+    margin: 0;
+  }
+  .service-img{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service-1,
+  .service-2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .contato-item {
+    /* Estilos específicos para os itens de contato em dispositivos móveis */
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    height: 170px; /* altura ajustável */
+    flex-direction: column;
+    justify-content: center; /* centraliza verticalmente */
+  }
+  .footer .footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
+  }
+  .footer .footer-box .footer-img {
+    padding: 0;
+    margin: 0;
+    align-self: center; /* centraliza horizontalmente */
+  }
+  .footer .footer-box .footer-txt {
+    padding: 0;
+    margin: 0;
+    align-self: center; /* centraliza horizontalmente */
+    margin-bottom: 20px;
+  }
+}
