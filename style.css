@@ -520,11 +520,13 @@ body {
   .container {
     width: 100%; /* Define a largura do container para 100% em dispositivos móveis */
     height: 100%;
+    padding: 0;
     /* Estilos específicos para o container em dispositivos móveis */
   }
   .content {
     width: 100%; /* Define a largura do conteúdo para 100% em dispositivos móveis */
     box-sizing: border-box; /* Define o modelo de caixa para incluir o padding e a borda no cálculo da largura */
+    padding: 0;
     /* Estilos específicos para o conteúdo em dispositivos móveis */
   }
   .call {
@@ -535,7 +537,7 @@ body {
     margin-bottom: 50px;
     width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
     margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
-    padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
+    padding: 0; /* Reduza o espaçamento do padding para se adequar a telas menores */
   }
   .call2 {
     flex-direction: column;
@@ -545,7 +547,7 @@ body {
     margin-bottom: 50px;
     width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
     margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
-    padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
+    padding: 0; /* Reduza o espaçamento do padding para se adequar a telas menores */
   }
   .service-item {
     display: flex;
