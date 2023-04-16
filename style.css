@@ -510,11 +510,11 @@ body {
     width: 100%;
   }
   .logo {
-    padding: 0 1rem;
+    padding: 0;
     /* Estilos específicos para o logo em dispositivos móveis */
   }
   .menu {
-    padding: 2rem;
+    padding: 0;
     /* Estilos específicos para o menu em dispositivos móveis */
   }
   .container {
