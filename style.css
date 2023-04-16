@@ -560,6 +560,7 @@ body {
   .service-img{
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
   }
   .service-1,
   .service-2 {
