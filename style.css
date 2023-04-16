@@ -505,12 +505,16 @@ body {
     width: 100%;
     /* Estilos específicos para o cabeçalho em dispositivos móveis */
   }
+  body
+  {
+    width: 100%;
+  }
   .logo {
-    padding: 0 0.1rem;
+    padding: 0 1rem;
     /* Estilos específicos para o logo em dispositivos móveis */
   }
   .menu {
-    padding: 0 0.1rem;
+    padding: 2rem;
     /* Estilos específicos para o menu em dispositivos móveis */
   }
   .container {
@@ -590,49 +594,5 @@ body {
     margin: 0;
     align-self: center; /* centraliza horizontalmente */
     margin-bottom: 20px;
-  }
-}
-/* Estilos para dispositivos móveis */
-@media (max-width: 530px) {
-  .max-width {
-    margin-top: 100px;
-    overflow-x: hidden;
-    width: 100%;
-    min-height: 200vh;
-  }
-
-  .header-1,
-  .header-2,
-  .logo,
-  .menu,
-  .container,
-  .content {
-    width: 100%;
-  }
-
-  .call {
-    flex-direction: column;
-    margin-top: 60rem;
-  }
-
-  .left,
-  .right,
-  .call2,
-  .left2,
-  .right2 {
-    width: 100%;
-    margin-right: 0;
-    padding: 10px;
-  }
-
-  .service-1,
-  .service-2 {
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-
-  .footer {
-    height: auto;
-    flex-direction: column;
   }
 }
