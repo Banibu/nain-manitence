@@ -493,7 +493,7 @@ body {
     margin-top: 100px;
     overflow: hidden;
     width: 100%;
-    min-height: 190vh;
+    min-height: 200vh;
     flex: 0;
   }
   /* Estilos para telas com largura máxima de 767px, como smartphones */
@@ -525,10 +525,10 @@ body {
   }
   .call {
     flex-direction: column;
-    margin-top: 40rem; /* Reduza a margem superior para se adequar a telas menores */
+    margin-top: 60rem; /* Reduza a margem superior para se adequar a telas menores */
   }
   .left, .right {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
     margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
     padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
@@ -538,6 +538,7 @@ body {
     margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
   }
   .left2, .right2 {
+    margin-bottom: 50px;
     width: 100%; /* Altere a largura dos elementos para ocupar 100% da largura do contêiner */
     margin-right: 0; /* Remova a margem direita para se adequar a telas menores */
     padding: 0 2rem; /* Reduza o espaçamento do padding para se adequar a telas menores */
@@ -545,11 +546,12 @@ body {
   .service-item {
     display: flex;
     flex-direction: column;
-    margin-top: 50rem;
+    margin-top: 60rem;
   }
 
   .service-item p {
     margin: 0;
+    padding: 0;
   }
   .service-img{
     flex-direction: column;
@@ -588,5 +590,49 @@ body {
     margin: 0;
     align-self: center; /* centraliza horizontalmente */
     margin-bottom: 20px;
+  }
+}
+/* Estilos para dispositivos móveis */
+@media (max-width: 530px) {
+  .max-width {
+    margin-top: 100px;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 200vh;
+  }
+
+  .header-1,
+  .header-2,
+  .logo,
+  .menu,
+  .container,
+  .content {
+    width: 100%;
+  }
+
+  .call {
+    flex-direction: column;
+    margin-top: 60rem;
+  }
+
+  .left,
+  .right,
+  .call2,
+  .left2,
+  .right2 {
+    width: 100%;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .service-1,
+  .service-2 {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    height: auto;
+    flex-direction: column;
   }
 }
