@@ -303,7 +303,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .contato-desc p
@@ -329,6 +329,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.contato-cv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
 }
 
 /* titulo */
@@ -443,6 +451,26 @@ body {
   transform: scale(1.1);
 }
 
+.btn-cv
+{
+  width: 164px;
+  height: 55px;
+  background: url(/images/Download\ CV.svg);
+  text-align: center;
+  white-space: nowrap;
+  justify-content: center;
+  top: 43.4rem;
+  left: 53.5rem;
+  position: absolute; /* Adiciona posição relativa */
+  border: none !important;
+  transition: 0.3s linear;
+}
+
+.btn-cv:hover
+{
+  transform: scale(1.1);
+}
+
 /* footer */
 
 .footer {
@@ -532,6 +560,7 @@ body {
   .call {
     flex-direction: column;
     margin-top: 60rem; /* Reduza a margem superior para se adequar a telas menores */
+    margin-right: 0;
   }
   .left, .right {
     margin-bottom: 50px;
@@ -611,6 +640,7 @@ body {
   }
   .footer .footer-box {
     display: flex;
+    padding: 0;
     flex-direction: column;
     align-items: center; /* centraliza horizontalmente */
     justify-content: center; /* centraliza verticalmente */
