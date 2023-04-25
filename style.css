@@ -459,8 +459,7 @@ body {
   text-align: center;
   white-space: nowrap;
   justify-content: center;
-  top: 43.4rem;
-  left: 53.5rem;
+  top: 75%;
   position: absolute; /* Adiciona posição relativa */
   border: none !important;
   transition: 0.3s linear;
