@@ -458,10 +458,8 @@ body {
   background: url(/images/cv.svg);
   text-align: center;
   white-space: nowrap;
-  justify-content: center;
-  top: 75%;
-  position: absolute; /* Adiciona posição relativa */
-  border: none !important;
+  position: relative; /* Adiciona posição relativa */
+  cursor: pointer;
   transition: 0.3s linear;
 }
 
