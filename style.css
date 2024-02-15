@@ -515,10 +515,10 @@ body {
 @media screen and (max-width: 1140px) {
   .max-width
   {
-    margin-top: 50px;
+    margin-top: 100px;
     overflow: hidden;
     width: 100%;
-    min-height: 200vh;
+    min-height: 230vh;
     flex: 0;
   }
   /* Estilos para telas com largura máxima de 767px, como smartphones */
