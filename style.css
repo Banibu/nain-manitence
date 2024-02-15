@@ -512,7 +512,7 @@ body {
   margin-right: 10rem; /* adiciona um espaço maior à esquerda */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1140px) {
   .max-width
   {
     margin-top: 120px;
